@@ -1,0 +1,109 @@
+{
+  "fragrances": [
+    {
+      "fragranceName": "Chocolate Chip Cookies",
+      "description": "Chocolate based cookies with chocolate chip to enlighten the chocolate lovers. Perfect for snacking anytime anywhere!",
+      "imageUrl": "",
+      "price": 10.00,
+      "userRating": 5
+    },
+    {
+      "fragranceName": "Green Tea Butter Cookies",
+      "description": "Green Tea is now snackable with this flavourful cookies, definitely to impress all Green Tea lovers!",
+      "imageUrl": "",
+      "price": 15.00,
+      "userRating": 5
+    },
+    {
+      "fragranceName": "Butter Cookies",
+      "description": "Buttery crunchy cookies is now available for those who like simple yet delicious cookies.",
+      "imageUrl": "",
+      "price": 10.00,
+      "userRating": 4
+    },
+    {
+      "fragranceName": "Wrinkled Brownie 6-inch",
+      "description": "6-inch wrinkled brownie with deep flavour. ",
+      "imageUrl": "",
+      "price": 25.00,
+      "userRating": 5
+    },
+    {
+      "fragranceName": "Wrinkled Brownie 10-inch",
+      "description": "10-inch wrinkled brownie for larger amount of brownie lover",
+      "imageUrl": "",
+      "price": 45.00,
+      "userRating": 5
+    },
+    {
+      "fragranceName": "Walnut Brownie 6-inch",
+      "description": "6-inch brownie added with delicious Walnut for deeper texture and taste.",
+      "imageUrl": "",
+      "price": 25.00,
+      "userRating": 4
+    },
+    {
+      "fragranceName": "Walnut Brownie 10-inch",
+      "description": "10-inch brownie added with delicious Walnut for deeper texture and taste.",
+      "imageUrl": "",
+      "price": 45.00,
+      "userRating": 4
+    },
+    {
+      "fragranceName": "Nutella Brownie 6-inch",
+      "description": "Perfect choice for Nutella lovers where the brownie is filled with Nutella drizzled inside.",
+      "imageUrl": "",
+      "price": 35.00,
+      "userRating": 4
+    },
+    {
+      "fragranceName": "Nutella Brownie 10-inch",
+      "description": "Perfect choice for Nutella lovers where the brownie is filled with Nutella drizzled inside.",
+      "imageUrl": "",
+      "price": 65.00,
+      "userRating": 5
+    },
+    {
+      "fragranceName": "Oreo Brownie 6-inch",
+      "description": "Brownies filled with oreo crush and topped with oreo pieces for extra deliciousness",
+      "imageUrl": "",
+      "userRating": 5
+    },
+    {
+      "fragranceName": "Oreo Brownie 10-inch",
+      "description": "Brownies filled with oreo crush and topped with oreo pieces for extra deliciousness",
+      "imageUrl": "",
+      "price": 65.00,
+      "userRating": 5
+    },
+    {
+      "fragranceName": "Red Velvet Cake 350g",
+      "description": "Red velvet cake topped with cream cheese icing. ",
+      "imageUrl": "",
+      "price": 35.00,
+      "userRating": 5
+    },
+    {
+      "fragranceName": "Red Velvet Cake 150g",
+      "description": "Red velvet cake topped with cream cheese icing. ",
+      "imageUrl": "",
+      "price": 15.00,
+      "userRating": 4
+    },
+    {
+      "fragranceName": "Vanilla Green Tea Cake",
+      "description": "Vanilla cake swirled with Green Tea mixture which is a secret recipe from the owner itself. ",
+      "imageUrl": "",
+      "price": 10.00,
+      "userRating": 5
+    },
+    {
+      "fragranceName": "Chocolate Moist Cake 350g",
+      "description": "Chocolate Moist Cake by the owner, with Pocky as the topping and chocolate ganache.",
+      "imageUrl": " ",
+      "price": 45.00,
+      "userRating": 5
+    }
+  ]
+}
+

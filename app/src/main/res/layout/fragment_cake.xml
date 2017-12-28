@@ -1,0 +1,110 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delaroystudios.fragrancecart.CakeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:id="@+id/priceLayout"
+        android:layout_below="@+id/cart_recycler"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content">
+
+    //rvcake
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_weight="2"
+            android:layout_height="200dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:src="@drawable/rv"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_weight="6"
+            android:textSize="16sp"
+            android:text="RED VELVET
+
+RM15.00 (150g)
+RM33.00 (350g)
+
+
+
+Red velvet cake glazed with cream cheese topping.
+"
+            android:gravity="left"
+            android:textAlignment="gravity"
+            android:layout_height="200dp"
+            />
+    </TableRow>
+
+        //choc cake
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_weight="2"
+                android:layout_height="200dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:src="@drawable/customchoc"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_weight="6"
+                android:textSize="16sp"
+                android:text="CHOC MOIST
+
+RM45.00 (350g)
+
+
+
+Chocolate cake with Pocky and choc glaze as topping.
+"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:layout_height="200dp"
+                />
+        </TableRow>
+
+        //green tea cake
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_weight="2"
+                android:layout_height="200dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:src="@drawable/vanillagt"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_weight="6"
+                android:textSize="16sp"
+                android:text="GREEN TEA
+
+RM10.00 (150g)
+
+
+
+Vanilla cake swirled with green tea mixture.
+"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:layout_height="200dp"
+                />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

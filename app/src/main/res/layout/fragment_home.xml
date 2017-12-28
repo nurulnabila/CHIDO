@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delaroystudios.fragrancecart.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/viewcchip"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        app:srcCompat="@drawable/chocchip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:clickable="false"/>
+
+    <ImageView
+        android:id="@+id/viewwalnut"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        app:srcCompat="@drawable/walnutbr"
+        android:layout_alignTop="@+id/viewcchip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="false"/>
+
+    <ImageView
+        android:id="@+id/chibi"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/chibi"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/rvcake"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/chibi"
+        android:layout_alignLeft="@+id/viewcchip"
+        android:layout_alignStart="@+id/viewcchip"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/rv" />
+
+    <ImageView
+        android:id="@+id/vgt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/vanillagt"
+        android:layout_alignTop="@+id/rvcake"
+        android:layout_alignLeft="@+id/viewwalnut"
+        android:layout_alignStart="@+id/viewwalnut"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:clickable="false"/>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_id"
+            android:checkable="false"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_brownies"
+            android:checkable="false"
+
+            android:title="Brownies" />
+        <item
+            android:id="@+id/nav_cakes"
+
+            android:title="Cakes" />
+        <item
+            android:id="@+id/nav_cookies"
+
+            android:title="Cookies" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/action_settings" />
+        <item
+            android:id="@+id/nav_exit"
+
+            android:title="Logout" />
+    </group>
+
+</menu>

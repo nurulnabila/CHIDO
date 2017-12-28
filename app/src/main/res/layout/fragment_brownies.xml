@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.delaroystudios.fragrancecart.BrowniesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:id="@+id/priceLayout"
+        android:layout_below="@+id/cart_recycler"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content">
+
+        //walnut
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_weight="2"
+                android:layout_height="200dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:src="@drawable/walnutbr"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_weight="6"
+                android:textSize="16sp"
+                android:text="WALNUT Brownies
+
+RM25.00 (6-inch)
+RM45.00 (10-inch)
+
+
+Filled with walnut which emphasize the texture and taste of the brownie.
+"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:layout_height="200dp"
+                 />
+        </TableRow>
+
+        //nutella
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_weight="2"
+                android:layout_height="200dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:src="@drawable/nutellabr"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_weight="6"
+                android:textSize="16sp"
+                android:text="NUTELLA Brownies
+
+RM35.00 (6-inch)
+RM65.00 (10-inch)
+
+
+Brownie swirled with Nutella inside.
+"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:layout_height="200dp"
+                 />
+        </TableRow>
+
+        //wrinkled
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_weight="2"
+                android:layout_height="200dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:src="@drawable/wrinkledbr"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_weight="6"
+                android:textSize="16sp"
+                android:text="WRINKLED Brownies
+
+RM25.00 (6-inch)
+RM45.00 (10-inch)
+
+
+All time favourite wrinkled brownie with traditional recipe.
+"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:layout_height="200dp"
+                />
+        </TableRow>
+
+        //oreo
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_weight="2"
+                android:layout_height="200dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:src="@drawable/oreobr"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_weight="6"
+                android:textSize="16sp"
+                android:text="OREO Brownies
+
+RM35.00 (6-inch)
+RM65.00 (10-inch)
+
+
+Brownie filled with crushed oreo and topped with chopped oreo.
+"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:layout_height="200dp"
+                />
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>

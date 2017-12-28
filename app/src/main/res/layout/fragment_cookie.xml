@@ -1,0 +1,110 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delaroystudios.fragrancecart.CookieFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:id="@+id/priceLayout"
+        android:layout_below="@+id/cart_recycler"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content">
+
+    //chocchip
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_weight="2"
+            android:layout_height="200dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:src="@drawable/chocchip"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_weight="6"
+            android:textSize="16sp"
+            android:text="CHOC CHIP COOKIES
+
+RM15.00 (150g)
+
+
+
+Chocolate cookies filled with melty chocolate chips.
+"
+            android:gravity="left"
+            android:textAlignment="gravity"
+            android:layout_height="200dp"
+            />
+    </TableRow>
+
+        //greentea
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_weight="2"
+                android:layout_height="200dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:src="@drawable/gtck"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_weight="6"
+                android:textSize="16sp"
+                android:text="GREEN TEA BUTTER COOKIES
+
+RM15.00 (150g)
+
+
+
+Green Tea based cookies with butter mixture.
+"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:layout_height="200dp"
+                />
+        </TableRow>
+
+        //buttercookie
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_weight="2"
+                android:layout_height="200dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:src="@drawable/butterck"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_weight="6"
+                android:textSize="16sp"
+                android:text="BUTTER COOKIES
+
+RM10.00 (150g)
+
+
+
+Traditional Butter cookie for those who prefer simple yet delicious snack.
+"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:layout_height="200dp"
+                />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
